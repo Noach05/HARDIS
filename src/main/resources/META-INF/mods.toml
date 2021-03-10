@@ -26,3 +26,27 @@ Hard And Relatively Difficult In Style
     versionRange="[1.14.4]"
     ordering="NONE"
     side="BOTH"
+[[dependencies.hardisbase]]
+    modId="botania"
+    mandatory=true
+    versionRange="[1.11,)"
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.hardisbase]]
+    modId="create"
+    mandatory=true
+    versionRange="[0.2.3,)"
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.hardisbase]]
+    modId="tardis"
+    mandatory=true
+    versionRange="[1.4,)"
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.hardisbase]]
+    modId="regeneration"
+    mandatory=true
+    versionRange="[4.0.8,)"
+    ordering="AFTER"
+    side="BOTH"
