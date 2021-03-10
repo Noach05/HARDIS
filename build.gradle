@@ -19,6 +19,10 @@ sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = co
 
 repositories {
     maven { url 'https://jitpack.io' }
+
+    maven {
+        url "https://www.cursemaven.com"
+    }
 }
 
 minecraft {
@@ -84,4 +88,10 @@ dependencies {
     // that the dep is a ForgeGradle 'patcher' dependency. And it's patches will be applied.
     // The userdev artifact is a special name and will get all sorts of transformations applied to it.
     minecraft 'net.minecraftforge:forge:1.14.4-28.2.23'
+    implementation fg.deobf("curse.maven:new-tardis-mod-290247:3052663")
+    implementation fg.deobf("curse.maven:botania-225643:2921552")
+    implementation fg.deobf("curse.maven:create-328085:2952509")
+    implementation fg.deobf("curse.maven:regeneration-274275:3229180")
+    implementation fg.deobf("curse.maven:weeping-angels-mod-291249:3223810")
+
 }
