@@ -29,13 +29,13 @@ Hard And Relatively Difficult In Style
 [[dependencies.hardisbase]]
     modId="botania"
     mandatory=true
-    versionRange="[1.11,)"
+    versionRange="[r1.11-379,)"
     ordering="AFTER"
     side="BOTH"
 [[dependencies.hardisbase]]
     modId="create"
     mandatory=true
-    versionRange="[0.2.3,)"
+    versionRange="[mc1.14-0.2.3,)"
     ordering="AFTER"
     side="BOTH"
 [[dependencies.hardisbase]]

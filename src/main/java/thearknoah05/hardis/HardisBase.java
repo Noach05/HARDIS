@@ -18,7 +18,6 @@ public class HardisBase {
 
     public static final String MODID = "hardisbase";
     public static final Logger LOGGER = LogManager.getLogger();
-    public static final ItemGroup hardis = new HardisItemGroup();
 
     public HardisBase() {
         FMLJavaModLoadingContext.get().getModEventBus().register(this);

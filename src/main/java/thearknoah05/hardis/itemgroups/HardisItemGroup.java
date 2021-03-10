@@ -3,17 +3,17 @@ package thearknoah05.hardis.itemgroups;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraftforge.fml.common.Mod;
 import thearknoah05.hardis.HardisBase;
 import thearknoah05.hardis.items.HardisItems;
 
-public class HardisItemGroup extends ItemGroup {
+@Mod.EventBusSubscriber(modid = HardisBase.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
+public class HardisItemGroup {
 
-    public HardisItemGroup() {
-        super("hardis");
-    }
-
-    @Override
-    public ItemStack createIcon() {
-        return new ItemStack(HardisItems.tardis_heart);
-    }
+    public static ItemGroup HARDIS = new ItemGroup(HardisBase.MODID + ".hardis") {
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(HardisItems.tardis_heart);
+        }
+    };
 }
