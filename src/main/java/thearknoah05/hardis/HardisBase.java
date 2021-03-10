@@ -14,6 +14,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import thearknoah05.hardis.data.EnglishProvider;
+import thearknoah05.hardis.data.RecipeGenerator;
 import thearknoah05.hardis.items.HardisItems;
 
 
@@ -44,5 +45,6 @@ public class HardisBase {
         DataGenerator generator = e.getGenerator();
         ExistingFileHelper existingFileHelper = e.getExistingFileHelper();
         generator.addProvider(new EnglishProvider(generator));
+        generator.addProvider(new RecipeGenerator(generator));
     }
 }
