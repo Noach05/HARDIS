@@ -12,7 +12,7 @@ logoFile="examplemod.png" #optional
 credits="TheArkNoah05: Mod | DangerousOnes: Datapack | Destroyer021620: Models/Textures" #optional
 authors="TheArkNoah05, DangerousOnes, Destroyer021620" #optional
 description='''
-HARDIS Base Mod
+Hard And Relatively Difficult In Style
 '''
 [[dependencies.hardisbase]] #optional
     modId="forge" #mandatory

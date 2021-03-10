@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#E#",
+        "HST",
+        "#E#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:ender_eye"
+        },
+        "E": {
+            "item": "minecraft:emerald"
+        },
+        "H": {
+            "item": "hardisbase:time_vector_generator"
+        },
+        "S": {
+            "item": "minecraft:heart_of_the_sea"
+        },
+        "T": {
+            "item": "hardisbase:tardis_activator"
+        }
+    },
+    "result": {
+        "item": "hardisbase:tardis_heart",
+        "count": 1
+    },
+    "group": "hardis"
+}

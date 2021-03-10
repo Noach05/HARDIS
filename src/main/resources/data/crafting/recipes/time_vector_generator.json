@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        " H ",
+        " G "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:iron_block"
+        },
+        "H": {
+            "item": "hardisbase:relative_dimension_stabiliser"
+        },
+        "G": {
+            "item": "minecraft:gold_block"
+        }
+    },
+    "result": {
+        "item": "hardisbase:time_vector_generator",
+        "count": 1
+    },
+    "group": "hardis"
+}

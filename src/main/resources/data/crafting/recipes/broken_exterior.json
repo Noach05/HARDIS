@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#LT",
+        "CHC",
+        "KNJ"
+    ],
+    "key": {
+        "#": {
+            "item": "tardis:thermocoupling"
+        },
+        "L": {
+            "item": "minecraft:lantern"
+        },
+        "T": {
+            "item": "tardis:chameleon_circuit"
+        },
+        "C": {
+            "item": "create:copper_block"
+        },
+        "H": {
+            "item": "hardisbase:tardis_heart"
+        },
+        "K": {
+            "item": "tardis:mercury_bottle"
+        },
+        "N": {
+            "item": "minecraft:nether_star"
+        },
+        "J": {
+            "item": "tardis:int_door"
+        }
+    },
+    "result": {
+        "item": "tardis:broken_exterior",
+        "count": 1
+    },
+    "group": "hardis"
+}

@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#H#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "tardis:circuits"
+        },
+        "H": {
+            "item": "hardisbase:symbiotic_nuclei"
+        }
+    },
+    "result": {
+        "item": "hardisbase:tardis_activator",
+        "count": 1
+    },
+    "group": "hardis"
+}

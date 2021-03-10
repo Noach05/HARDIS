@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#E#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:diamond"
+        },
+        "E": {
+            "item": "tardis:int_door"
+        }
+    },
+    "result": {
+        "item": "hardisbase:relative_dimension_stabiliser",
+        "count": 1
+    },
+    "group": "hardis"
+}

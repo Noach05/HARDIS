@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "rbr",
+        "bRb",
+        "rbr"
+    ],
+    "key": {
+        "r": {
+            "item": "regeneration:unknown_ingot"
+        },
+        "b": {
+            "item": "botania:gaia_ingot"
+        },
+        "R": {
+            "item": "regeneration:fob_watch"
+        }
+    },
+    "result": {
+        "item": "hardisbase:symbiotic_nuclei",
+        "count": 1
+    },
+    "group": "hardis"
+}
