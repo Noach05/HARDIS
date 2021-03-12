@@ -14,6 +14,9 @@ public class EnglishProvider extends LanguageProvider {
 
     @Override
     protected void addTranslations() {
+        //Advancements
+        add("advancement.hardisbase.unlocked.broken_exterior", "Place Broken Exterior");
+        add("advancement.hardisbase.unlocked.broken_exterior.desc", "Place down a TARDIS Broken Exterior");
         //Items
         add(HardisItems.RELATIVE_DIMENSION_STABILISER.get(), "Relative Dimension Stabiliser");
         add(HardisItems.SYMBIOTIC_NUCLEI.get(), "Symbiotic Nuclei");
