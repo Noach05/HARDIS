@@ -4,10 +4,10 @@
       "block": "tardis:broken_exterior"
     },
     "title": {
-      "translate": "advancements.hardisbase.unlocked.broken_exterior"
+      "translate": "advancements.hardisbase.broken_exterior"
     },
     "description": {
-      "translate": "advancements.hardisbase.unlocked.broken_exterior.desc"
+      "translate": "advancements.hardisbase.broken_exterior.desc"
     },
     "frame": "task",
     "show_toast": true,
@@ -20,6 +20,11 @@
       "conditions": {
         "block": "tardis:broken_exterior"
       }
-    }
+    },
+    "requirements": [
+      [
+        "0"
+      ]
+    ]
   }
 }
