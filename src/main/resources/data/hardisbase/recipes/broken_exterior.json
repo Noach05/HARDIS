@@ -10,7 +10,7 @@
             "item": "tardis:thermocoupling"
         },
         "L": {
-            "item": "minecraft:lantern"
+            "item": "minecraft:sea_lantern"
         },
         "T": {
             "item": "tardis:chameleon_circuit"
