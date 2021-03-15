@@ -31,3 +31,8 @@ Regeneration: Suff99
 Create Mod: Simibubi
 
 Botania: Vazkii
+
+
+Recipes are avalible on the curseforge page and through JEI
+
+https://www.curseforge.com/minecraft/mc-mods/hardis
