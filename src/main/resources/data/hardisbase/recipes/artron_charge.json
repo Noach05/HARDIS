@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#T#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "tardis:artron_battery_high"
+        },
+        "T": {
+            "item": "tardis:fluid_link"
+        }
+    },
+    "result": {
+        "item": "tardis:artron_battery_creative",
+        "count": 1
+    },
+    "group": "hardis"
+}
