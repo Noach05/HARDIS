@@ -1,13 +1,19 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "rbr",
+        "ebm",
         "bRb",
-        "rbr"
+        "mbn"
     ],
     "key": {
-        "r": {
-            "item": "regeneration:gal_ingot"
+        "e": {
+            "item": "tardis:cinnabar"
+        },
+        "n": {
+            "item": "minecraft:iron_sword"
+        },
+        "m": {
+            "item": "botania:mana_glass"
         },
         "b": {
             "item": "botania:gaia_ingot"
