@@ -1,9 +1,9 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "ebm",
+        "mbe",
         "bRb",
-        "mbn"
+        "ebn"
     ],
     "key": {
         "e": {
