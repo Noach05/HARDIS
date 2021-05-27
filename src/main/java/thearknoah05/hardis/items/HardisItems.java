@@ -24,5 +24,5 @@ public class HardisItems {
     public static final RegistryObject< Item > TIME_VECTOR_GENERATOR = ITEMS.register("time_vector_generator", () -> new Item(new Item.Properties().maxStackSize(1).group(HardisItems.MAIN)));
     public static final RegistryObject< Item > RELATIVE_DIMENSION_STABILISER = ITEMS.register("relative_dimension_stabiliser", () -> new Item(new Item.Properties().maxStackSize(1).group(HardisItems.MAIN)));
     public static final RegistryObject< Item > SYMBIOTIC_NUCLEI = ITEMS.register("symbiotic_nuclei", () -> new Item(new Item.Properties().maxStackSize(1).group(HardisItems.MAIN)));
-
+/*  public static final RegistryObject< Item > JIFFY = ITEMS.register("jiffy", () -> new Item(new Item.Properties().maxStackSize(1).group(HardisItems.MAIN))); */
 }

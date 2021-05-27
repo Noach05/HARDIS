@@ -24,4 +24,8 @@ public class EnglishProvider extends LanguageProvider {
         //Tabs
         add("itemGroup.hardisbase.hardis", "HARDIS");
     }
+
+    protected void addInformation() {
+        add(HardisItems.TARDIS_HEART.get(), "This is what powers The TARDIS");
+    }
 }

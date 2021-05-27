@@ -6,20 +6,20 @@
         "ebn"
     ],
     "key": {
-        "e": {
-            "item": "tardis:cinnabar"
-        },
-        "n": {
-            "item": "minecraft:iron_sword"
-        },
         "m": {
             "item": "botania:mana_glass"
         },
         "b": {
             "item": "botania:gaia_ingot"
         },
+        "e": {
+            "item": "tardis:cinnabar"
+        },
         "R": {
             "item": "regeneration:fob_watch"
+        },
+        "n": {
+            "item": "minecraft:iron_sword"
         }
     },
     "result": {
